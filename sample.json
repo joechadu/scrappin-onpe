@@ -1,0 +1,89 @@
+{
+  "success": true,
+  "message": "",
+  "data": {
+    "id": 6156514014310,
+    "idMesa": null,
+    "codigoMesa": "061565",
+    "descripcionMesa": "061565",
+    "idEleccion": 10,
+    "ubigeoNivel01": "LIMA",
+    "ubigeoNivel02": "LIMA",
+    "ubigeoNivel03": "SANTA ANITA",
+    "centroPoblado": "",
+    "nombreLocalVotacion": "IE 0096 ENRIQUE PALACIOS MENDIBURO",
+    "totalElectoresHabiles": 299,
+    "totalVotosEmitidos": 261,
+    "totalVotosValidos": 236,
+    "totalAsistentes": 261,
+    "porcentajeParticipacionCiudadana": 87.291,
+    "estadoActa": "D",
+    "estadoComputo": "N",
+    "codigoEstadoActa": "C",
+    "descripcionEstadoActa": "Contabilizada",
+    "estadoActaResolucion": "",
+    "estadoDescripcionActaResolucion": null,
+    "descripcionSubEstadoActa": null,
+    "detalle": [
+      {
+        "descripcion": "FUERZA POPULAR",
+        "estado": 1,
+        "grafico": 1,
+        "cargo": null,
+        "sexo": null,
+        "totalCandidatos": 0,
+        "candidato": [
+          {
+            "apellidoPaterno": "FUJIMORI",
+            "apellidoMaterno": "HIGUCHI",
+            "nombres": "KEIKO SOFIA",
+            "cdocumentoIdentidad": "10001088"
+          }
+        ],
+        "nagrupacionPolitica": 8,
+        "nporcentajeVotosValidos": 25.424,
+        "nporcentajeVotosEmitidos": 22.989,
+        "ccodigo": "00000008",
+        "nposicion": 21,
+        "nvotos": 60
+      },
+      {
+        "descripcion": "PARTIDO DEL BUEN GOBIERNO",
+        "estado": 1,
+        "grafico": 1,
+        "cargo": null,
+        "sexo": null,
+        "totalCandidatos": 0,
+        "candidato": [
+          {
+            "apellidoPaterno": "NIETO",
+            "apellidoMaterno": "MONTESINOS",
+            "nombres": "JORGE",
+            "cdocumentoIdentidad": "06506278"
+          }
+        ],
+        "nagrupacionPolitica": 16,
+        "nporcentajeVotosValidos": 14.407,
+        "nporcentajeVotosEmitidos": 13.027,
+        "ccodigo": "00000016",
+        "nposicion": 6,
+        "nvotos": 34
+      },
+      {
+        "descripcion": "VOTOS EN BLANCO",
+        "estado": 1,
+        "grafico": 0,
+        "cargo": null,
+        "sexo": null,
+        "totalCandidatos": 0,
+        "candidato": [],
+        "nagrupacionPolitica": 80,
+        "nporcentajeVotosValidos": null,
+        "nporcentajeVotosEmitidos": 6.513,
+        "ccodigo": "80",
+        "nposicion": 80,
+        "nvotos": 17
+      }
+    ]
+  }
+}
