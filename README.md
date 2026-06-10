@@ -255,13 +255,11 @@ Este proyecto es de código abierto con fines educativos y de transparencia elec
 
 ---
 
-<p align="center">
-  <br>
-  ```diff
+```diff
 +    ****    *****   ******  *****
 +   *    *   *    *  *       *    *
 +   *    *   *****   ****    *    *
 +   *    *   *    *  *       *    *
 +    ****    *****   ******  *****
 ```
-</p>
+
