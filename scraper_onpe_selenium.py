@@ -7,7 +7,7 @@ import pandas as pd
 import traceback
 
 def scrape_onpe_santa_anita_selenium():
-    ubigeo = "140143"
+    ubigeo = "140135"
     
     print(f"Iniciando scraping con Selenium (undetected_chromedriver) para el Ubigeo {ubigeo}...")
     
@@ -128,7 +128,7 @@ def scrape_onpe_santa_anita_selenium():
         resumen = df.groupby(['Local de Votación', 'Partido Político', 'Candidato'])['Total Votos'].sum().reset_index()
         resumen = resumen.sort_values(by=['Local de Votación', 'Total Votos'], ascending=[True, False])
         
-        excel_file = "Resultados_Santa_Anita_Presidenciales.xlsx"
+        excel_file = "Resultados_Presidenciales_2026.xlsx"
         with pd.ExcelWriter(excel_file, engine='openpyxl') as writer:
             locales = resumen['Local de Votación'].unique()
             for local in locales:

@@ -9,7 +9,7 @@ def test_selenium_json():
     options = uc.ChromeOptions()
     # No usamos headless para evitar deteccion inicial
     driver = uc.Chrome(options=options, version_main=148)
-    ubigeo = "140143"
+    ubigeo = "140135"
     pagina = 0
     tamanio = 15
     
