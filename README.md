@@ -256,5 +256,12 @@ Este proyecto es de código abierto con fines educativos y de transparencia elec
 ---
 
 <p align="center">
-  <b>Hecho con 🇵🇪 para la democracia</b>
+  <br>
+  ```diff
++    ****    *****   ******  *****
++   *    *   *    *  *       *    *
++   *    *   *****   ****    *    *
++   *    *   *    *  *       *    *
++    ****    *****   ******  *****
+```
 </p>
